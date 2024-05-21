@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import MarkdownEditor from './MarkdownEditor';
+import HTMLViewer from './HTMLViewer';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <MarkdownEditor />
+      <HTMLViewer />
     </div>
   );
 };

@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
-import { marked } from 'marked';
+import showdown from 'showdown';
 
 const MarkdownEditor: React.FC = () => {
     const [markdown, setMarkdown] = useState<string>('');
+    const converter = new showdown.Converter();
 
     const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
         setMarkdown(e.target.value);
     };
 
     const getMarkdownText = (): { __html: string } => {
-        const rawMarkup = marked(markdown);
+        const rawMarkup = converter.makeHtml(markdown);
         return { __html: rawMarkup };
     };
 
