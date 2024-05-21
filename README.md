@@ -24,7 +24,7 @@ The Simple HTML Editor allows users to enter HTML text and view it as raw text w
 
 ## Demo
 
-[DemoLink](https://your-github-username.github.io/html-editor/)
+[DemoLink](https://antoinewtz.github.io/html-editor/)
 
 ## Technologies Used
 
