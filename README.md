@@ -1,7 +1,7 @@
 
-# Simple HTML Editor
+# HTML Editor
 
-A simple HTML editor that displays HTML text without rendering it as HTML. It's useful for viewing raw HTML code and styles.
+Simple HTML editor using React, TypeScript, Tailwind and Showdown
 
 ## Usage
 
@@ -24,7 +24,7 @@ The Simple HTML Editor allows users to enter HTML text and view it as raw text w
 
 ## Demo
 
----
+[DemoLink](https://your-github-username.github.io/html-editor/)
 
 ## Technologies Used
 
