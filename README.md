@@ -1,6 +1,7 @@
-# Markdown Editor
 
-A simple Markdown editor using React, TypeScript, and Tailwind CSS.
+# Simple HTML Editor
+
+A simple HTML editor that displays HTML text without rendering it as HTML. It's useful for viewing raw HTML code and styles.
 
 ## Usage
 
@@ -11,22 +12,23 @@ A simple Markdown editor using React, TypeScript, and Tailwind CSS.
 
 ## Description
 
-The Markdown editor allows users to input text in Markdown format and see the HTML conversion in real-time. It utilizes the `marked` library to convert Markdown to HTML.
+The Simple HTML Editor allows users to enter HTML text and view it as raw text without rendering the HTML elements.
+
+### Features
+
+* Display HTML text without rendering HTML elements.
+
+## File Structure
+
+* `src/HTMLViewer.tsx`: Contains the HTML Viewer component logic.
+
+## Demo
+
+---
 
 ## Technologies Used
 
 * React
 * TypeScript
 * Tailwind CSS
-* marked
-
-## File Structure
-
-* `src/MarkdownEditor.tsx`: Contains the Markdown Editor component logic.
-* `src/App.tsx`: The main application component that integrates the Markdown Editor component.
-* `tailwind.config.js`: Tailwind CSS configuration file.
-* `src/index.css`: Global styles for the application.
-
-## Demo
-
-[DemoLink](https://your-github-username.github.io/markdown-editor/)
+* Showdown
