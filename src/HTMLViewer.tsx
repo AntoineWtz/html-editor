@@ -17,7 +17,7 @@ const HTMLEditor: React.FC = () => {
     return (
         <div className="min-h-screen flex flex-col items-center bg-gray-50 p-4">
             <h1 className="text-2xl font-bold m-4">HTML Editor</h1>
-            <p className="text-gray-600 text-center m-4">Enter HTML in the left box and see the preview on the right.</p>
+            <p className="text-gray-600 text-center m-4">Enter HTML in the left box and see the preview on the right for extracting content</p>
             <div className="flex flex-col md:flex-row w-full max-w-4xl">
                 <textarea
                     className="w-full m-2 md:w-1/2 h-96 p-4 border border-gray-300 rounded-md shadow-md mb-4 md:mb-0 md:mr-2"
